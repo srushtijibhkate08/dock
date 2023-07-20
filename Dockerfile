@@ -1,4 +1,4 @@
 FROM nginx
-COPY ./html
+COPY . /usr/share/nginx/html
 WORKDIR /app
 CMD ["app.html"]
